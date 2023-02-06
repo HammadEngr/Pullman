@@ -1,0 +1,21 @@
+.main {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(241, 241, 241);
+  width: 200px;
+}
+.list_items {
+  padding: 0;
+}
+.list_item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: none;
+  height: 40px;
+}
+.list_item:hover {
+  cursor: pointer;
+  color: chartreuse;
+}

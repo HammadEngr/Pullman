@@ -1,0 +1,58 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  height: 130px;
+}
+.name {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.user {
+  font-weight: bold;
+  font-size: 0.6rem;
+  color: rgb(112, 203, 21);
+}
+.details {
+  font-size: 1rem;
+}
+.read_more {
+  width: 100px;
+  height: 30px;
+  font-size: 0.7rem;
+  background-color: rgb(255, 255, 255);
+  border: none;
+  color: rgb(0, 0, 0);
+}
+
+@media (max-width: 65rem) {
+  .main {
+    width: 27.5rem;
+    height: 500px;
+  }
+  .image {
+    height: 200px;
+    width: 300px;
+  }
+}
+@media (max-width: 48rem) {
+  .main {
+    width: 21.125rem;
+    height: 500px;
+  }
+  .image {
+    height: 200px;
+    width: 300px;
+  }
+}
+@media (max-width: 37.5rem) {
+  .main {
+    width: 35rem;
+    height: 500px;
+  }
+  .image {
+    height: 200px;
+    width: 300px;
+  }
+}

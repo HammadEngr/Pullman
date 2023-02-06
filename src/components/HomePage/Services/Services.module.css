@@ -1,0 +1,27 @@
+.main {
+  display: grid;
+  grid-template-columns: 280px 280px 280px 280px;
+  position: absolute;
+  transform: translateY(-80px);
+  gap: 1rem;
+}
+@media (max-width: 62rem) {
+  .main {
+    grid-template-columns: 420px 420px;
+  }
+}
+@media (max-width: 48rem) {
+  .main {
+    grid-template-columns: 320px 320px;
+  }
+}
+@media (max-width: 37.5rem) {
+  .main {
+    grid-template-columns: 240px 240px;
+  }
+}
+@media (max-width: 500px) {
+  .main {
+    grid-template-columns: 420px;
+  }
+}

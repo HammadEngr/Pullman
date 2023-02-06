@@ -1,0 +1,142 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading h1 {
+  font-size: 1.5rem;
+}
+.sub_heading {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.sub_heading p {
+  font-size: 1rem;
+}
+.sub_heading img {
+  width: 24px;
+}
+.main_container {
+  width: 100%;
+  padding: 30px 30px;
+}
+
+.sub_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.right_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 2rem;
+}
+.top_bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  z-index: 1;
+}
+.toggle_btns {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.toggle_btns img {
+  height: 80%;
+  padding-right: 10px;
+}
+.toggle_btns img:hover {
+  cursor: pointer;
+  transform: scale(102%);
+}
+.sort_btns {
+  width: 240px;
+  height: 40px;
+}
+.sort_btns p {
+  display: inline-block;
+  border: solid 1px black;
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+}
+.sort_btn {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-between;
+  border: solid 1px black;
+  border-radius: 10px;
+  padding: 0 10px;
+}
+.sort_btn img {
+  width: 20px;
+  transform: rotate(90deg);
+}
+.params {
+  border: solid 1px black;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* display: none; */
+}
+.params button {
+  width: 100%;
+  text-align: left;
+}
+.params button:hover {
+  background-color: rgb(237, 237, 237);
+}
+.param.active {
+  display: block;
+}
+
+.display_container {
+  display: grid;
+  grid-template-columns: max-content max-content max-content;
+  gap: 2rem;
+  animation-name: pop;
+  animation-duration: 500ms;
+}
+@keyframes pop {
+  from {
+    transform: scale(50%);
+  }
+  to {
+    transform: scale(100%);
+  }
+}
+.sidebar {
+  width: 260px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.search_form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 40px;
+  border: solid 1px rgb(144, 192, 0);
+}
+.search_form input {
+  border: none;
+  text-indent: 10px;
+  font-size: 0.8rem;
+}
+.search_form button {
+  background-color: rgb(144, 192, 0);
+  height: 40px;
+  width: 80px;
+  color: white;
+}

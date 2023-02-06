@@ -1,0 +1,63 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 60px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 60px 0;
+}
+.header h1 {
+  font-size: 1.5rem;
+}
+.header p {
+  width: 700px;
+  text-align: center;
+}
+.btns_container {
+  display: flex;
+  gap: 1rem;
+}
+.btn {
+  background-color: transparent;
+  border: none;
+  font-size: 1rem;
+  font-weight: 700;
+}
+.btn:hover {
+  cursor: pointer;
+  color: rgb(91, 164, 18);
+}
+.active {
+  border: solid black 1px;
+  color: rgb(91, 164, 18);
+}
+@media (max-width: 48rem) {
+  .header h1 {
+    font-size: 1.2rem;
+  }
+  .header p {
+    width: 600px;
+  }
+  .btn {
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 37.5rem) {
+  .header h1 {
+    font-size: 1rem;
+  }
+  .header p {
+    width: 340px;
+  }
+  .btn {
+    font-size: 0.5rem;
+  }
+}

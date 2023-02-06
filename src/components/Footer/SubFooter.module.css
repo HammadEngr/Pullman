@@ -1,0 +1,43 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: rgb(10, 30, 20);
+  height: 300px;
+  color: rgb(131, 117, 105);
+}
+.items {
+  display: flex;
+  gap: 1rem;
+}
+.item:hover {
+  cursor: pointer;
+  color: chartreuse;
+}
+.copyrights {
+  display: flex;
+  gap: 1rem;
+}
+.copyrights a {
+  color: chartreuse;
+  text-decoration: underline;
+}
+.icons {
+  width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.icons img {
+  width: 100%;
+}
+@media (max-width: 37.5rem) {
+  .items {
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+  }
+}

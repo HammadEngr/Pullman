@@ -1,0 +1,28 @@
+.main {
+  display: none;
+  width: 90vw;
+  height: fit-content;
+  justify-content: center;
+  background-color: rgb(240, 240, 240);
+  gap: 4rem;
+  position: fixed;
+  left: 5vw;
+  padding: 10px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.women,
+.kids,
+.sale,
+.men {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.title {
+  font-size: 1rem;
+  text-decoration: underline;
+}

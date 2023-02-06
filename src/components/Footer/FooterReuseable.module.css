@@ -1,0 +1,27 @@
+.main {
+  background: transparent;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 1rem;
+}
+.title {
+  font-size: 1rem;
+  color: white;
+}
+.items {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  gap: 1rem;
+}
+.list_item {
+  list-style: none;
+  color: rgb(131, 117, 105);
+  transition: 500ms ease-in-out;
+}
+.list_item:hover {
+  cursor: pointer;
+  color: chartreuse;
+  transform: translateX(10px);
+}

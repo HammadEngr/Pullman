@@ -1,0 +1,41 @@
+.container {
+  display: grid;
+  grid-template-columns: 280px 280px 280px 280px;
+  gap: 0.5rem;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  transform-origin: center;
+  animation-name: zoomIn;
+  animation-duration: 500ms;
+}
+@keyframes zoomIn {
+  from {
+    transform: scale(0);
+    opacity: 0;
+  }
+  to {
+    transform: scale(100%);
+    opacity: 1;
+  }
+}
+@media (max-width: 62rem) {
+  .container {
+    grid-template-columns: 220px 220px 220px 220px;
+  }
+}
+@media (max-width: 56rem) {
+  .container {
+    grid-template-columns: 280px 280px 280px;
+  }
+}
+@media (max-width: 48rem) {
+  .container {
+    grid-template-columns: 280px 280px;
+  }
+}
+@media (max-width: 37.5rem) {
+  .container {
+    grid-template-columns: 280px;
+  }
+}

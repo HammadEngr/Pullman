@@ -1,0 +1,16 @@
+.main {
+  display: flex;
+  background-color: rgb(10, 30, 20);
+  justify-content: space-between;
+  width: 100%;
+  padding: 40px;
+  border-bottom: solid 1px rgb(86, 86, 86);
+}
+@media (max-width: 37.5rem) {
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,16 @@
+.main.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  height: 80px;
+  animation-name: stick;
+  animation-duration: 500ms;
+}
+@keyframes stick {
+  from {
+    transform: translateY(-20px);
+  }
+  to {
+    transform: translateY(0);
+  }
+}

@@ -1,0 +1,39 @@
+.carousel_main {
+  position: relative;
+  width: 400px;
+  height: 300px;
+}
+.container {
+  width: 400px;
+  height: 300px;
+  display: flex;
+}
+.img_container {
+  width: 400px;
+  height: 300px;
+}
+.img_container img {
+  width: 100%;
+  height: 100%;
+}
+.prev_btn,
+.next_btn {
+  width: 30px;
+  height: 30px;
+  background-color: rgb(218, 218, 218);
+  position: absolute;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(-50%);
+}
+.prev_btn {
+  left: 0;
+  top: 50%;
+}
+.next_btn {
+  right: 0;
+  top: 50%;
+}

@@ -1,0 +1,13 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 35rem;
+  height: 200px;
+}
+
+.main:hover button {
+  background-color: rgb(195, 255, 0);
+}

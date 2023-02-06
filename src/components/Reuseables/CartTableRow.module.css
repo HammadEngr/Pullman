@@ -1,0 +1,38 @@
+.pro_qty {
+  vertical-align: middle;
+  text-align: center;
+  padding: 0 1rem;
+}
+.qty {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  height: 100%;
+  border: solid black 1px;
+  margin: 0;
+  width: 100%;
+}
+.qty p {
+  width: 50px;
+  text-align: center;
+  border: none;
+}
+.del_btn {
+  border: none;
+  width: 100px;
+  height: 30px;
+  background-color: brown;
+  color: white;
+}
+.del_btn:hover {
+  background-color: rgb(189, 63, 63);
+  transform: scale(102%);
+}
+.qty button {
+  border: none;
+  background: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}

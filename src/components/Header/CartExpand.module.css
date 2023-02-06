@@ -1,0 +1,42 @@
+.main {
+  flex-direction: column;
+  background-color: white;
+  padding: 10px;
+  min-width: 400px;
+  width: fit-content;
+}
+.view_cart {
+  width: 100%;
+  height: 40px;
+  background-color: black;
+}
+.view_cart a {
+  text-decoration: none;
+  color: white;
+}
+.view_cart:hover {
+  background-color: green;
+}
+.totals_container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.totals {
+  text-align: center;
+}
+.row {
+  background-color: white;
+  font-size: 0.6rem;
+  height: 30px;
+  max-width: 100%;
+}
+.row p {
+  font-size: 0.8rem;
+}
+.row img {
+  width: 50px;
+}
+.row button {
+  width: 40px;
+}
